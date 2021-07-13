@@ -11,6 +11,10 @@ $navbar-light-hover-color : $primary;
 $navbar-light-disabled-color: $light;
 $navbar-light-active-color : $secondary;
 
+// card custom attributes
+
+$card-height: 100%;
+
 // import functions and variables
 
 @import "../../node_modules/bootstrap/scss/_functions";
@@ -25,6 +29,8 @@ $navbar-light-active-color : $secondary;
     font-weight : $font-weight-bold;
   }
 }
+
+// custom css
 
 
 // import Bootstrap
