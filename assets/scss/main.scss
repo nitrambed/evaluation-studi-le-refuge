@@ -1,7 +1,30 @@
 // custom colors variables
 
-$primary: #c29938;
-$light: #fbf5e5;
+$primary: #ce854b;
+$secondary: #523432;
+$light: #fffaf6;
+
+// navbar light custom colors 
+
+$navbar-light-color : $secondary;
+$navbar-light-hover-color : $primary;
+$navbar-light-disabled-color: $light;
+$navbar-light-active-color : $secondary;
+
+// import functions and variables
+
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
+
+// navbar active link
+
+.navbar-nav {
+  .show > .nav-link,
+  .nav-link.active {
+    border-bottom : 3px solid $secondary;
+    font-weight : $font-weight-bold;
+  }
+}
 
 
 // import Bootstrap
