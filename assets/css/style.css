@@ -1,3 +1,4 @@
+@import url(../../node_modules/bootstrap-icons/font/bootstrap-icons.css);
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
   border-bottom: 3px solid #523432;
