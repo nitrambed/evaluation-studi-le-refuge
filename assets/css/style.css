@@ -1,8 +1,14 @@
 @import url(../../node_modules/bootstrap-icons/font/bootstrap-icons.css);
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  border-bottom: 3px solid #523432;
+  border-bottom: none;
   font-weight: 700; }
+
+@media (min-width: 992px) {
+  .navbar-nav .show > .nav-link,
+  .navbar-nav .nav-link.active {
+    border-bottom: 3px solid #523432;
+    font-weight: 700; } }
 
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)

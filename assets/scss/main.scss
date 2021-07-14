@@ -19,14 +19,26 @@ $card-height: 100%;
 
 @import "../../node_modules/bootstrap/scss/_functions";
 @import "../../node_modules/bootstrap/scss/_variables";
+@import "../../node_modules/bootstrap/scss/mixins/breakpoints";
 
 // navbar active link
+
 
 .navbar-nav {
   .show > .nav-link,
   .nav-link.active {
-    border-bottom : 3px solid $secondary;
+    border-bottom : none;
     font-weight : $font-weight-bold;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar-nav {
+    .show > .nav-link,
+    .nav-link.active {
+      border-bottom : 3px solid $secondary;
+      font-weight : $font-weight-bold;
+    }
   }
 }
 
